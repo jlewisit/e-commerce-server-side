@@ -17,7 +17,7 @@ Category.findAll({
 .then(dbCategoryData => res.json(dbCategoryData))
 .catch(err => {
   console.log(err);
-  res.status(500).json(err);
+  res.status(400).json(err);
 });
 });
 
@@ -52,7 +52,7 @@ Category.create({
 .then(dbCategoryData => res.json(dbCategoryData))
 .catch(err => {
   console.log(err);
-  res.status(500).json(err);
+  res.status(400).json(err);
 });
 });
 
@@ -72,7 +72,7 @@ router.put('/:id', (req, res) => {
   })
   .catch(err => {
     console.log(err);
-    res.status(500).json(err);
+    res.status(400).json(err);
   });
 
 });
@@ -94,7 +94,7 @@ res.json(dbCategoryData);
 })
 .catch(err => {
   console.log(err);
-  res.status(500).json(err);
+  res.status(400).json(err);
 });
 });
 
