@@ -8,7 +8,7 @@ E-Commerce is the largest sector of the electronics industry, generating an esti
 
 I've built the entire back end for an e-commerce site. I've configured an Express.js API to use Sequelize to interact with a MySQL database.
 
-I've provided a link to a walkthrough video that demonstrates its current functionality. The link to the video is here: 
+I've provided a link to a walkthrough video that demonstrates its current functionality. The link to the video is here: https://watch.screencastify.com/v/vVIppAVldnHmv0IbhcKW
 
 
 ## User Story
